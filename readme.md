@@ -1,14 +1,10 @@
 ### - ¿Qué comando utilizaste en el paso 11? ¿Por qué?
-
-* `git reset —hard HEAD~1`
-
+* `git reset -—hard HEAD~1`
 * `git reset HEAD~1` retrocede HEAD 1 commit en dirección al padre, pero con `--hard` decimos a git que deje el Working Copy vacío (como hacer reset y luego checkout)
 
 
 ### - ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?
-
 * `git reflog`, para buscar el identificador hash del commit 
-
 * `git reset --hard 889e22e`, con reset movemos puntero HEAD y su rama al commit. Con `--hard` dejamos el working copy vacío
 
 
